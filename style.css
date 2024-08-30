@@ -109,7 +109,12 @@ button {
     top: 0px;
     left: -3px;
     z-index: -10;
-    background: linear-gradient(to top, transparent, #1e293b 20%);
+    background: linear-gradient(
+        to top,
+        transparent 20%,
+        rgba(2, 133, 199, 0.4) 60%,
+        transparent
+    );
 }
 
 .fullstack-text,
@@ -210,7 +215,7 @@ header {
 .header__title {
     font-size: 48px;
     text-align: center;
-    margin-top: 82px;
+    margin-top: 172px;
 }
 .header__img-orcodev {
     border-radius: 50%;
