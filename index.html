@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Nivel-2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="nav">
+            <div class="nav__container">
+                <div class="nav__logo">
+                    <div class="logo-orcodev">
+                        <span class="logo_bracket bracket-open">{</span>
+                        <span class="logo_or-text">or</span>
+                        <span class="logo_code-text">code
+                            <div class="code_text-background"></div>
+                        </span>
+                        <span class="logo_v-text">v</span>
+                        <span class="logo_bracket bracket-closed">}</span>
+                    </div>
+                    <div class="logo_htmltag-wrapper">
+                        <span class="htmltag_bracket m-plus-code-latin-font">
+                            &lt;</span>
+                        <h5 class="fullstack-text">Fullstack Developer</h5>
+                        <span class="htmltag_bracket m-plus-code-latin-font">/&gt;<span>
+                    </div>
+                </div>
+                <label for="menu" class="nav__label">
+                    <img src="/img/menu.svg" alt="menu icon" class="nav__img">
+                </label>
+                <input type="checkbox" id="menu" class="nav__input">
+                <div class="nav__menu--mobile">
+                    <a href="#acerca-de-mi" class="nav__item open-sans-700">Acerca de mi</a>
+                    <a href="#servicios" class="nav__item open-sans-700">Servicios</a>
+                    <a href="#contacto" class="nav__item open-sans-700">Contacto</a>
+                </div>
+                <div class="nav__menu--desktop">
+                    <a href="#acerca-de-mi" class="nav__item open-sans-700">Acerca de mi</a>
+                    <a href="#servicios" class="nav__item open-sans-700">Servicios</a>
+                    <a href="#contacto" class="nav__item open-sans-700">Contacto</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <header>
+                <!-- <div class="header__mask"></div> -->
+                <div class="header__patron-puntos"></div>
+                <!-- </div> -->
+                <h1 class="header__title open-sans-700">Bienvenidos a mi Website</h1>
+                <img src="/img/orcodev-final.png" alt="imagen de orcodev" class="header__img-orcodev">
+            </header>
+            <section class="section__aboutme" id="acerca-de-mi">
+                <!-- <div class="section-card"> -->
+                <h2 class="section__title open-sans-700">Soy</h2>
+                <h2 class="section__title open-sans-700">Orlando Camacho</h2>
+                <div class="logo-orcodev">
+                    <span class="logo_bracket bracket-open">{</span>
+                    <span class="logo_or-text">or</span>
+                    <span class="logo_code-text">code
+                    </span>
+                    <span class="logo_v-text">v</span>
+                    <span class="logo_bracket bracket-closed">}</span>
+                </div>
+
+                <p class="section__text roboto-regular">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
+                    id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum
+                    nisi ultrices cursus.
+                    Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+                    sodales semper.
+                    Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
+                <img src="/img/check.svg" alt="imagen de check" class="section__check-img">
+                <!-- </div> -->
+
+            </section>
+            <section class="section__services" id="servicios">
+                <h2 class="section__services-title open-sans-700">Mis Servicios</h2>
+
+                <div class="section__card">
+                    <img src="/img/pc.svg" alt="imagen de pantalla como encabezado para seccion de servicios"
+                        class="section__img">
+                    <h2 class="section__title roboto-bold">Hago cosas</h2>
+                    <p class="section__text roboto-regular">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
+                        id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+                <div class="section__card">
+                    <img src="/img/pc.svg" alt="imagen de pantalla como encabezado para seccion de servicios"
+                        class="section__img">
+                    <h2 class="section__title roboto-bold">Hago cosas</h2>
+                    <p class="section__text roboto-regular">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
+                        id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+                <div class="section__card">
+                    <img src="/img/pc.svg" alt="imagen de pantalla como encabezado para seccion de servicios"
+                        class="section__img">
+                    <h2 class="section__title roboto-bold">Hago cosas</h2>
+                    <p class="section__text roboto-regular">Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim
+                        id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+
+
+                <section class="section__contact" id="contacto">
+                    <h2 class="section__title open-sans-700">Contacto</h2>
+                    <form action="" class="section__form">
+                        <label class="roboto-regular form-label" for="nombre">
+                            NOMBRE
+                        </label>
+                        <input type="text" name="nombre" id="nombre" class="form-input">
+                        <label class="roboto-regular form-label" for="email">
+                            EMAIL
+                        </label>
+                        <input type="email" name="email" id="email" class="form-input">
+                        <label class="roboto-regular form-label" for="mensaje">
+                            Mensaje
+                        </label>
+                        <textarea name="mensaje" id="mensaje" class="form-input"></textarea>
+                        <button class="form-button roboto-bold">Enviar</button>
+                    </form>
+                </section>
+        </main>
+        <footer class="roboto-regular">
+            <div class="nav__logo">
+                <div class="logo-orcodev">
+                    <span class="logo_bracket bracket-open">{</span>
+                    <span class="logo_or-text">or</span>
+                    <span class="logo_code-text">code
+                        <div class="code_text-background"></div>
+                    </span>
+                    <span class="logo_v-text">v</span>
+                    <span class="logo_bracket bracket-closed">}</span>
+                </div>
+                <div class="logo_htmltag-wrapper">
+                    <span class="htmltag_bracket m-plus-code-latin-font">
+                        &lt;</span>
+                    <h5 class="fullstack-text">Fullstack Developer</h5>
+                    <span class="htmltag_bracket m-plus-code-latin-font">/&gt;<span>
+                </div>
+            </div>
+            <p class="footer__copyright roboto-regular">®️ Orcodev 2022</p>
+            <div class="social__icons">
+
+                <a href="" class="social__icon">
+                    <img src="/img/ig.svg" alt="instagram icon" class="social__icon-img">
+                    <span class="social__icon-text">Instagram</span>
+                </a>
+                <a href="" class="social__icon">
+                    <img src="/img/link.svg" alt="linkedin icon" class="social__icon-img">
+                    <span class="social__icon-text">Linkedin</span>
+                </a>
+                <a href="" class="social__icon">
+                    <img src="/img/git.svg" alt="Github icon" class="social__icon-img">
+                    <span class="social__icon-text">Twitter</span>
+                </a>
+            </div>
+        </footer>
+    </body>
+
+</html>
