@@ -1,3 +1,3 @@
 # Nivel 2 - Desafio Maquetado
 
-### Ver • [link al Desafio Resuelto](https://orcodev.github.io/)
+### Ver • [https://ocamachor.github.io/desafio-maquetado-nivel2/](https://ocamachor.github.io/desafio-maquetado-nivel2/)
