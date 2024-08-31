@@ -1,3 +1,3 @@
 # Nivel 2 - Desafio Maquetado
 
-### Ver • [Documentation](https://filamentphp.com/docs/panels)
+### Ver • [link al Desafio Resuelto](https://orcodev.github.io/)
